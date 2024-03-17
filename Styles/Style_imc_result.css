@@ -1,0 +1,38 @@
+
+main{
+    padding: 5px;
+    gap: 5px;
+    color: #ffffff;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 153, 255);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 30px rgba(255, 255, 255, 0.1);
+    padding: 16px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+}
+
+table{  
+    border-collapse: collapse;
+    border-spacing: 10px;
+    border-bottom: 2px solid rgb(0, 153, 255);
+}
+td{
+    padding: 10px;
+    border-right: 2px solid rgb(0, 153, 255);
+    border-left: 2px solid rgb(0, 153, 255);
+}
+
+th{
+    border: 2px solid rgb(0, 153, 255) ;
+}
